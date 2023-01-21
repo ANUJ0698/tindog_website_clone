@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+#head{
+    font-size: 3.5rem;
+    line-height:1.5;
+    font-weight: bolder;
+}
+#cont1{
+    padding: 3% 15%;
+}
+
+/* navigation bar */
+
+#navbar1 {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+#brand{
+    font-size: 2.5rem;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+
+/* Buttons-download */
+
+.down-btn{ 
+    margin: 5% 3% 5% 0;
+}
+
+/* title-img */
+
+.img-pro{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+.rowfeatures{
+    padding: 7% 15%;
+
+}
+.icon{
+    color: hwb(10 62% 6%);
+text-align: center;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.featuress{
+    text-align: center;
+    padding: 4%;
+}
+p{
+    color: #7e7c7c;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.testimg{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+.pressimg{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+   padding: 10%;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.col-lg-4{
+    padding: 7% 0%;
+    text-align: center;
+}
+.card{
+    margin: auto;
+    height: 25rem;
+}
+#features{
+    background-color: white;
+    position: relative;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .img-pro{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        right: 25%;
+      } 
+    #head{
+        font-size: 70px;
+    }
+    #brand{
+        font-size: 70px;
+    }
+    .navbar-toggler{
+        zoom: 150%;
+    }
+     .nav-link{
+        font-size: 40px;
+    }
+    .btn{
+        zoom: 150%;
+    }
+    .featuress{
+    zoom: 200%;
+    }
+    .carousel-item{
+        zoom: 150%;
+    } 
+    #press{
+        zoom: 150%;
+    }
+    .card-body{
+        zoom: 100%;
+    }
+    #pricing{
+        zoom: 200%;
+    }
+    #cta{
+        zoom: 200%;
+    }
+    #footer{
+        zoom: 200%;
+    }
+
+
+}
+
+#footer{
+    background-color: #ef8172;
+    padding-top: 70px;
+}
+#footert{
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
