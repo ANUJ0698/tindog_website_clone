@@ -168,12 +168,33 @@ h2{
 }
 
 #footer{
-    background-color: #ef8172;
-    padding-top: 70px;
+    padding: 7% 15% 10px 15%;
 }
 #footert{
-    color: white;
+    color: gray;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 20px;
+}
+#shead{
+    font-size: 3.5rem;
+    line-height:1.5;
+    font-weight: bolder;
+    color: white;
+}
+#cta{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+}
+#social{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#icons{
+    color: #7e7c7c;
+    margin: 0 5px 0 5px;
+}
+#icons:hover{
+    color: black;
 }
